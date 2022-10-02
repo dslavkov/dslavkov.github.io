@@ -8,13 +8,13 @@ PygmentsStyle = "monokai"
 enableGitInfo = false
 
 [params]
-address = "Sofia Bulgaria"
+address = "Address"
 email = "email@domain.com"
 favicon = "/favicon.ico"
 firstName = "GG"
 lastName = "HH"
 phone = "12345"
-profileImage = "img/TechChat.png"
+profileImage = "https://avatars.githubusercontent.com/u/34049724?v=4"
 showEducation = true
 showExperience = true
 showOpenSource = false
@@ -29,7 +29,7 @@ showSkills = true
 trackerID = "XX-123446-01"
 
 [[params.handles]]
-link = "https://www.linkedin.com/in/georgihimchev/"
+link = "https://www.linkedin.com/"
 name = "LinkedIn"
 
 [[params.handles]]
