@@ -1,5 +1,5 @@
 title = "Georgi Himchev"
-baseURL = "https://georgihimchev.github.io/"
+baseURL = "https://cryptozealot.github.io/"
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
