@@ -1,8 +1,18 @@
-Changes made:
+Automatic Build of Hugo website using hugo-resume theme with Github Actions Pipeline and Deploy to Github pages.
 
-Added .github/workflows/ "Github Actions" workflow to build and deploy on Github Pages.
+To create your own free website at "{yourgituser}.github.io":
+1. Clone this repo
+2. Rename the repository to {yourgituser}.github.io
+3. Go to "Github Actions" and enable it for this new repository which has already been renamed
+4. Do a manual change in one of the files to force a commit and start the pipeline
+5. Go to {yourgituser}.github.io
 
+ToDo: Cleanup folders and use module from this repo
 
+Changes made to original repo:
+1. Added .github/workflows/ "Github Actions" workflow to build and deploy on Github Pages.
+
+Original Readme below:
 
 # hugo Resume
 
