@@ -133,5 +133,4 @@ collections: # A list of collections the CMS should be able to edit
               
           - { label: 'Show Git Commit INfo', name: 'enableGitInfo', widget: 'boolean', required: false }
           - { label: 'outputs', name: 'outputs', widget: 'object', field:{name: 'home', label: 'home' , widget: list, default: ['HTML','JSON'] }}
-          - { label: 'taxonomies', name: 'taxonomies', widget: 'hidden', default:{name: 'home', label: 'home' , widget: string, default: ['tags'] }}
           
