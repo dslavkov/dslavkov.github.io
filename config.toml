@@ -1,5 +1,5 @@
 title = "Georgi Himchev"
-baseURL = "https://ghimchev.github.io/"
+baseURL = "https://${{ github.event.repository.name }}/"
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
