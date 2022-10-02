@@ -1,0 +1,3 @@
+[submodule "themes/hugo-resume"]
+	path = themes/hugo-resume
+	url = https://github.com/cryptozealot/cryptozealot.github.io.git
