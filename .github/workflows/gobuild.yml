@@ -24,7 +24,7 @@ jobs:
         run: git clone https://github.com/cryptozealot/hugo-resume-gh
         
       - name: cd
-        run: cd hugo-resume-gh
+        run: cd hugo-resume-gh/exampleSite
 
       - name: Hugo build site
         run: Hugo
