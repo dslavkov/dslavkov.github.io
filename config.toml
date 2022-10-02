@@ -1,5 +1,5 @@
 title = "Georgi Himchev"
-baseURL = "https://cryptozealot.github.io/"
+baseURL = "https://ghimchev.github.io/"
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
@@ -17,10 +17,10 @@ phone = "NoPhone"
 profileImage = "img/TechChat.png"
 showEducation = true
 showExperience = true
-showOpenSource = true
+showOpenSource = false
 showProjects = true
 showPublications = true
-showQr = true
+showQr = false
 showSkills = true
 
 [params.google]
