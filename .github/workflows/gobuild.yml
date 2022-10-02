@@ -26,11 +26,11 @@ jobs:
       - name: cd
         run: cd hugo-resume-gh/exampleSite
         
-      - name: cd
+      - name: ls
         run: ls        
 
       - name: Hugo build site
-        run: Hugo
+        run: hugo
         
       - name: TEST
         run: ls        
