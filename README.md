@@ -6,14 +6,27 @@ To create your own free website at "{yourgituser}.github.io":
 3. Go to "Github Actions" and enable it for this new repository which has already been renamed
 4. Do a manual change in one of the files to force a commit and start the pipeline
 5. Go to {yourgituser}.github.io
+6 (optional for netlify). edit --basURL in netlify.toml to match your newly created site in netlify
 
-ToDo: Cleanup folders and use module from this repo
 
 Changes made to original repo:
 1. Added .github/workflows/ "Github Actions" workflow to build and deploy on Github Pages.
+2. Added netlify.toml - for Netlify deployment and admin panel
 
-Original Readme below:
+Resources:
+https://02dev.com/post/learn/61d8edb69c67d2983d96fae8
+https://www.netlifycms.org/docs/github-backend/
+https://www.netlifycms.org/docs/git-gateway-backend/
+https://preview-auth-doc--netlify-cms-www.netlify.app/docs/authentication-backends/#github-backend
+https://docs.netlify.com/visitor-access/oauth-provider-tokens/#using-an-authentication-provider
+https://docs.netlify.com/visitor-access/oauth-provider-tokens/#netlify-ui-settings
+https://cloud.gov/pages/documentation/getting-started-with-netlify-cms/
 
+
+
+Original Readme Is Below:
+############################
+#############################
 # hugo Resume
 
 Created from [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/).
