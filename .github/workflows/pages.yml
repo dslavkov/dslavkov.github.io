@@ -43,6 +43,10 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
+      - name: Clone theme
+        run: git clone https://github.com/cryptozealot/hugo-resume-gh          
+      - name: Module
+        run: git submodule add https://github.com/eddiewebb/hugo-resume.git /home/runner/work/georgihimchev.github.io/georgihimchev.github.io/themes/hugo-resume/
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
