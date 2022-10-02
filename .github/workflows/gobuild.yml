@@ -30,7 +30,7 @@ jobs:
         run: ls        
 
       - name: Hugo build site
-        run: hugo --config exampleSite/config.toml
+        run: hugo --config hugo-resume-gh/exampleSite/config.toml
         
       - name: TEST
         run: ls exampleSite    
