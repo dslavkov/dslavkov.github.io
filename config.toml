@@ -1,6 +1,6 @@
 title = "Eddie Webb"
 baseURL = "https://example.com/"
-theme = "hugo-resume-gh"
+theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
 PygmentsCodeFencesGuessSyntax = true
