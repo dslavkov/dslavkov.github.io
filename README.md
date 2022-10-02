@@ -12,6 +12,7 @@ To create your own free website at "{yourgituser}.github.io":
 Changes made to original repo:
 1. Added .github/workflows/ "Github Actions" workflow to build and deploy on Github Pages.
 2. Added netlify.toml - for Netlify deployment and admin panel
+3. Created theme file, moved folders from exampleSite, cleanup
 
 Resources:
 <br>https://02dev.com/post/learn/61d8edb69c67d2983d96fae8
