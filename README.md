@@ -14,13 +14,13 @@ Changes made to original repo:
 2. Added netlify.toml - for Netlify deployment and admin panel
 
 Resources:
-!https://02dev.com/post/learn/61d8edb69c67d2983d96fae8
-!https://www.netlifycms.org/docs/github-backend/
-!https://www.netlifycms.org/docs/git-gateway-backend/
-!https://preview-auth-doc--netlify-cms-www.netlify.app/docs/authentication-backends/#github-backend
-!https://docs.netlify.com/visitor-access/oauth-provider-tokens/#using-an-authentication-provider
-!https://docs.netlify.com/visitor-access/oauth-provider-tokens/#netlify-ui-settings
-!https://cloud.gov/pages/documentation/getting-started-with-netlify-cms/
+<br>https://02dev.com/post/learn/61d8edb69c67d2983d96fae8
+<br>https://www.netlifycms.org/docs/github-backend/
+<br>https://www.netlifycms.org/docs/git-gateway-backend/
+<br>https://preview-auth-doc--netlify-cms-www.netlify.app/docs/authentication-backends/#github-backend
+<br>https://docs.netlify.com/visitor-access/oauth-provider-tokens/#using-an-authentication-provider
+<br>https://docs.netlify.com/visitor-access/oauth-provider-tokens/#netlify-ui-settings
+<br>https://cloud.gov/pages/documentation/getting-started-with-netlify-cms/
 
 
 
