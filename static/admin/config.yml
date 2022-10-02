@@ -11,7 +11,7 @@
 
 
 backend:
-  name: git-gateway
+  name: github
   repo: cryptozealot/cryptozealot.github.io
   branch: master
 
