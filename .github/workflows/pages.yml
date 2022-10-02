@@ -43,8 +43,6 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2         
-      - name: Module
-        run: git submodule add https://github.com/${{github.actor}}/${{ github.event.repository.name }}.git /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/themes/hugo-resume/
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
