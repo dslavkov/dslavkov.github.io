@@ -23,7 +23,7 @@ jobs:
         run: git clone https://github.com/cryptozealot/hugo-resume-gh          
 
       - name: Module
-        run: git submodule add https://github.com/eddiewebb/hugo-resume.git /home/runner/work/georgihimchev.github.io/georgihimchev.github.io/themes
+        run: git submodule add https://github.com/eddiewebb/hugo-resume.git /home/runner/work/georgihimchev.github.io/georgihimchev.github.io/themes/hugo-resume/
 
       - name: Build
         run: hugo --minify
