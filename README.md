@@ -1,3 +1,9 @@
+Changes made:
+
+Added .github/workflows/ "Github Actions" workflow to build and deploy on Github Pages.
+
+
+
 # hugo Resume
 
 Created from [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/).
