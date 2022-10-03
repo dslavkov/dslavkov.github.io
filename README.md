@@ -5,9 +5,9 @@ To create your own free website at "{yourgituser}.github.io":
 2. Rename the repository to {yourgituser}.github.io
 3. IMPORTANT: While at your new repo, Go to Settings > Go to Pages > At "Build and deployment - Source" select "Github Actions" from the dropdown!
 4. Do a manual change in one of the files to force a commit and start the pipeline. Just change something in config.toml
-5. Go to {yourgituser}.github.io
-6.1 (optional for netlify). Register and create a new site at Netlify. Edit --baseURL in netlify.toml to match your newly created site in netlify.
-6.2 To refresh pages in GithubPages we need to recompile our theme inside themes/ folder each time we run the pipeline https://github.com/cryptozealot/cryptozealot.github.io/blob/master/.github/workflows/pages.yml#L48
+5. Go to {yourgituser}.github.io <br>
+6.1 (optional for netlify). Register and create a new site at Netlify. Edit --baseURL in netlify.toml to match your newly created site in netlify.<br>
+6.2 To refresh pages in GithubPages we need to recompile our theme inside themes/ folder each time we run the pipeline<br> https://github.com/cryptozealot/cryptozealot.github.io/blob/master/.github/workflows/pages.yml#L48
 Netlify needs that created in the repo prior to the deploy(maybe there is a fix for this - TODO)
 So before we run Netlify Deployment, we clone our repo locally and cd into it, then we run:
 
