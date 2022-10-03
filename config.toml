@@ -15,11 +15,11 @@ firstName = "Dimitar"
 lastName = "Slavkov"
 phone = "12345"
 profileImage = "https://avatars.githubusercontent.com/u/34049724?v=4"
-showEducation = true
-showExperience = true
+showEducation = false
+showExperience = false
 showOpenSource = false
 showProjects = true
-showPublications = true
+showPublications = false
 showQr = false
 showSkills = true
 
