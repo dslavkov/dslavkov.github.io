@@ -1,9 +1,14 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/338b24b5-0c9c-4c7f-9c61-589f40985a94/deploy-status)](https://app.netlify.com/sites/cryptozealot/deploys)<br>
 ![example workflow](https://github.com/cryptozealot/cryptozealot.github.io/actions/workflows/pages.yml/badge.svg)
 
-Automatic Build of Hugo website using hugo-resume theme with Github Actions Pipeline and Deploy to Github pages..
+# Code base of [cryptozealot.github.io](https://cryptozealot.github.io/)
 
-To create your own free website at "{yourgituser}.github.io":
+##### A dynamic staticly generated HTML website using Hugo and Hugo-Resume theme built and deployed with Github Actions Workflows to Github Pages and adminstered with Netlify CMS admin panel.
+
+AKA a free automatically deployed dynamic website hosted on Github without a database.
+
+<b>To create your own free website at "{yourgituser}.github.io":</b>
+
 1. Fork this repo and rename it while being forked
 2. Rename the repository to {yourgituser}.github.io
 3. IMPORTANT: While at your new repo, Go to Settings > Go to Pages > At "Build and deployment - Source" select "Github Actions" from the dropdown!
@@ -12,9 +17,8 @@ To create your own free website at "{yourgituser}.github.io":
 6. Go to {yourgituser}.github.io <br><br>
 <B>(optional for netlify)</B><br><br>
 6. Register and create a new site at Netlify. Edit --baseURL in netlify.toml to match your newly created site in netlify.<br>
-7. To refresh pages in GithubPages we need to recompile our theme inside themes/ folder each time we run the pipeline<br> https://github.com/cryptozealot/cryptozealot.github.io/blob/master/.github/workflows/pages.yml#L48
-Netlify needs that created in the repo prior to the deploy(maybe there is a fix for this - TODO)
-So before we run Netlify Deployment, we clone our repo locally and cd into it, then we run:
+
+NOTE: If there are issues with the module, clone locally, run cmd below, and push back to remote. 
 
 ```git submodule add https://github.com/cryptozealot/cryptozealot.github.io.git /themes/hugo-resume/```
 
