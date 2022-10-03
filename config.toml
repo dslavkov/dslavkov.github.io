@@ -1,4 +1,4 @@
-title = "GG HH"
+title = "GGG HHH"
 baseURL = "https://${{ github.event.repository.name }}/"
 theme = "hugo-resume"
 languageCode = "en-us"
@@ -11,8 +11,8 @@ enableGitInfo = false
 address = "Address"
 email = "email@domain.com"
 favicon = "/favicon.ico"
-firstName = "GG"
-lastName = "HH"
+firstName = "GGh"
+lastName = "HHh"
 phone = "12345"
 profileImage = "https://avatars.githubusercontent.com/u/34049724?v=4"
 showEducation = true
