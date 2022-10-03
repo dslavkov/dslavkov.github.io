@@ -1,4 +1,4 @@
-title = "GGGGGG HHHHHHH"
+title = "GGGzzGGG HHHzzHHHH"
 baseURL = "https://${{ github.event.repository.name }}/"
 theme = "hugo-resume"
 languageCode = "en-us"
