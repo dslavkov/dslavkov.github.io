@@ -4,8 +4,9 @@ To create your own free website at "{yourgituser}.github.io":
 1. Fork this repo and rename it while being forked
 2. Rename the repository to {yourgituser}.github.io
 3. IMPORTANT: While at your new repo, Go to Settings > Go to Pages > At "Build and deployment - Source" select "Github Actions" from the dropdown!
-4. Do a manual change in one of the files to force a commit and start the pipeline. Just change something in config.toml
-5. Go to {yourgituser}.github.io <br><br>
+4. IMPORTANT: While at your new repo, Go to Settings > Go to Action > Click Enable Actions
+5. Do a manual change in one of the files to force a commit and start the pipeline. Just change something in config.toml
+6. Go to {yourgituser}.github.io <br><br>
 <B>(optional for netlify)</B><br><br>
 6. Register and create a new site at Netlify. Edit --baseURL in netlify.toml to match your newly created site in netlify.<br>
 7. To refresh pages in GithubPages we need to recompile our theme inside themes/ folder each time we run the pipeline<br> https://github.com/cryptozealot/cryptozealot.github.io/blob/master/.github/workflows/pages.yml#L48
