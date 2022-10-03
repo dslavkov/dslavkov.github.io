@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "git submodule add https://github.com/cryptozealot/cryptozealot.github.io.git themes/hugo-resume/ && hugo --gc --minify --baseURL https://courageous-crepe-69b95f.netlify.app/"
+command = "git submodule add https://github.com/cryptozealot/cryptozealot.github.io.git themes/hugo-resume/ && hugo --gc --minify --baseURL https://cryptozealot.netlify.app/"
 
 [context.production.environment]
 HUGO_VERSION = "0.85.0"
