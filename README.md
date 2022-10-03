@@ -56,18 +56,6 @@ This is basically a single-page website with auto-scrolling based on left-hand n
 
 <!-- /MarkdownTOC -->
 
-## Examples
-
-![About You](https://raw.githubusercontent.com/eddiewebb/hugo-resume/master/images/about.png)
-
-![With optional Contact QR Code](https://raw.githubusercontent.com/eddiewebb/hugo-resume/master/images/qrcode.png)
-
-![Highlight skills with dev icons](https://raw.githubusercontent.com/eddiewebb/hugo-resume/master/images/skills.png)
-
-![List featured projects](https://raw.githubusercontent.com/eddiewebb/hugo-resume/master/images/projects.png)
-
-![Searchable content](https://raw.githubusercontent.com/eddiewebb/hugo-resume/master/images/search.png)
-
 See [Eddie's site](https://edwardawebb.com) for a live example.
 
 ## Setup & Use
