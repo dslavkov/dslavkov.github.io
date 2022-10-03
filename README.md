@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/338b24b5-0c9c-4c7f-9c61-589f40985a94/deploy-status)](https://app.netlify.com/sites/cryptozealot/deploys)
+
 Automatic Build of Hugo website using hugo-resume theme with Github Actions Pipeline and Deploy to Github pages..
 
 To create your own free website at "{yourgituser}.github.io":
