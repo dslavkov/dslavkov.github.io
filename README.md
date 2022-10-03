@@ -4,7 +4,7 @@ To create your own free website at "{yourgituser}.github.io":
 1. Fork this repo and rename it while being forked
 2. Rename the repository to {yourgituser}.github.io
 3. IMPORTANT: While at your new repo, Go to Settings > Go to Pages > At "Build and deployment - Source" select "Github Actions" from the dropdown!
-4. IMPORTANT: While at your new repo, Go to Settings > Go to Action > Click Enable Actions
+4. IMPORTANT: While at your new repo, Go to Settings > Go to Actions > Click Enable Actions
 5. Do a manual change in one of the files to force a commit and start the pipeline. Just change something in config.toml
 6. Go to {yourgituser}.github.io <br><br>
 <B>(optional for netlify)</B><br><br>
