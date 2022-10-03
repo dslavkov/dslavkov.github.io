@@ -45,7 +45,7 @@ jobs:
       - name: Clone theme
         run: git clone https://github.com/cryptozealot/cryptozealot.github.io          
       - name: Module
-        run: git submodule add https://github.com/cryptozealot/cryptozealot.github.io.git /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/themes/hugo-resume/
+        run: git submodule add https://github.com/${{github.actor}}/${{ github.event.repository.name }}.git /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/themes/hugo-resume/
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
