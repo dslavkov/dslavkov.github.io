@@ -9,10 +9,10 @@ enableGitInfo = false
 
 [params]
 address = "Address"
-email = "email@domain.com"
+email = "slavkov@cloudengineering.co.uk"
 favicon = "/favicon.ico"
-firstName = "GGhGGGG"
-lastName = "HHhGGGG"
+firstName = "Dimitar"
+lastName = "Slavkov"
 phone = "12345"
 profileImage = "https://avatars.githubusercontent.com/u/34049724?v=4"
 showEducation = true
