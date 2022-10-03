@@ -3,7 +3,7 @@ Automatic Build of Hugo website using hugo-resume theme with Github Actions Pipe
 To create your own free website at "{yourgituser}.github.io":
 1. Clone/Fork this repo
 2. Rename the repository to {yourgituser}.github.io
-3. Go to "Github Actions" and enable it for this new repository which has already been renamed
+3. IMPORTANT: While at your new repo, Go to Settings > Go to Pages > At Build and deployment - Source select "Github Actions" from the dropdown
 4. Do a manual change in one of the files to force a commit and start the pipeline
 5. Go to {yourgituser}.github.io
 6. (optional for netlify). edit --baseURL in netlify.toml to match your newly created site in netlify
