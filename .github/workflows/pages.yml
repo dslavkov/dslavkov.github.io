@@ -43,7 +43,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v2
       - name: Clone theme
-        run: git clone https://github.com/cryptozealot/cryptozealot.github.io          
+        run: git clone https://github.com/${{github.repository}}          
       - name: Module
         run: git submodule add https://github.com/${{github.repository}}.git /home/runner/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/themes/hugo-resume/
       - name: Build with Hugo
